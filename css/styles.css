@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/partials/_normalize.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/partials/_normalize.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/partials/_normalize.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/partials/_normalize.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/partials/_normalize.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/partials/_normalize.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/partials/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/partials/_layout.scss */
+body {
+  background: url("../images/ps_neutral.png");
+}
+
+/* line 5, ../sass/partials/_layout.scss */
+header {
+  height: 50px;
+}
+
+/* line 9, ../sass/partials/_layout.scss */
+.flex-container {
+  width: 100%;
+  background-color: #6c0f0f !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e64b4b", endColorstr="#6b0e0e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e64b4b), to(#6b0e0e));
+  background-image: -moz-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -ms-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e64b4b), color-stop(100%, #6b0e0e));
+  background-image: -webkit-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -o-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: linear-gradient(#e64b4b, #6b0e0e);
+  border-color: #6b0e0e #6b0e0e #430909;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.59);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 28, ../sass/partials/_layout.scss */
+.flex-container ul {
+  display: flex;
+  margin: 0 auto;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.5rem;
+}
+/* line 34, ../sass/partials/_layout.scss */
+.flex-container li {
+  padding: 20px;
+  color: white;
+}
+/* line 38, ../sass/partials/_layout.scss */
+.flex-container li a {
+  color: white;
+}
+
+/* line 45, ../sass/partials/_layout.scss */
+.hero-logo h1 {
+  text-align: center;
+  font-family: 'Jura', sans-serif;
+  font-size: 6rem;
+}
+/* line 49, ../sass/partials/_layout.scss */
+.hero-logo h1 .hero-logo img {
+  margin-top: 5%;
+}
+
+/* line 53, ../sass/partials/_layout.scss */
+.hero-logo p {
+  font-family: 'Jura', sans-serif;
+  font-size: 1.5rem !important;
+  margin: 0px !important;
+}
+
+/* line 61, ../sass/partials/_layout.scss */
+.welcome-section {
+  border: 1px solid grey;
+  height: 445px;
+  background-color: white;
+}
+/* line 65, ../sass/partials/_layout.scss */
+.welcome-section h2 {
+  font-size: 72px;
+  text-align: left;
+  font-family: 'Jura', sans-serif;
+}
+/* line 70, ../sass/partials/_layout.scss */
+.welcome-section p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* line 76, ../sass/partials/_layout.scss */
+.inside-welcome-section {
+  padding: 25px;
+}
+
+/* line 82, ../sass/partials/_layout.scss */
+.menu-section {
+  margin: 50px 0px 50px 0px;
+}
+/* line 84, ../sass/partials/_layout.scss */
+.menu-section h2 {
+  font-size: 56px;
+  margin-top: 3%;
+  font-family: 'Jura', sans-serif;
+}
+/* line 89, ../sass/partials/_layout.scss */
+.menu-section .menu ul li a {
+  font-size: 1.5rem;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+}
+
+/* line 97, ../sass/partials/_layout.scss */
+.contact-section {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 250px;
+  background-color: #6c0f0f !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e64b4b", endColorstr="#6b0e0e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e64b4b), to(#6b0e0e));
+  background-image: -moz-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -ms-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e64b4b), color-stop(100%, #6b0e0e));
+  background-image: -webkit-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -o-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: linear-gradient(#e64b4b, #6b0e0e);
+  border-color: #6b0e0e #6b0e0e #430909;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.59);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 119, ../sass/partials/_layout.scss */
+#homepage-breakfast .row, #homepage-appetizers .row, #homepage-buffets .row, #homepage-desserts .row {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-family: 'Arimo', sans-serif;
+  line-height: 185%;
+}
+
+/* line 126, ../sass/partials/_layout.scss */
+#contact1, #contact2, #contact3 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+/* line 132, ../sass/partials/_layout.scss */
+#contact1, #contact3 {
+  align-items: center !important;
+}
+
+/* line 135, ../sass/partials/_layout.scss */
+#contact1 h3 {
+  font-size: 3rem;
+  font-family: 'Jura', sans-serif;
+}
+
+/* line 139, ../sass/partials/_layout.scss */
+#contact2 {
+  flex-direction: column;
+}
+
+/* line 142, ../sass/partials/_layout.scss */
+#contact2 p, #contact3 p {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* line 146, ../sass/partials/_layout.scss */
+#contact3 ul {
+  display: inherit;
+}
+
+/* line 149, ../sass/partials/_layout.scss */
+#contact3 li {
+  margin-left: 10px;
+}
+
+/* line 153, ../sass/partials/_layout.scss */
+footer {
+  height: 150px;
+}
+
+/* line 157, ../sass/partials/_layout.scss */
+.footer-flex-container {
+  width: 970px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 164, ../sass/partials/_layout.scss */
+.footer-flex-container ul {
+  display: flex;
+  font-family: 'Arimo', sans-serif;
+}
+/* line 168, ../sass/partials/_layout.scss */
+.footer-flex-container li {
+  padding-right: 40px;
+}
+/* line 171, ../sass/partials/_layout.scss */
+.footer-flex-container h3 {
+  font-size: 1.5rem;
+  font-family: 'Jura', sans-serif;
+}
+
+/* line 1, ../sass/partials/_buttons.scss */
+.btn-custom {
+  background-color: #6c0f0f !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e64b4b", endColorstr="#6b0e0e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e64b4b), to(#6b0e0e));
+  background-image: -moz-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -ms-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e64b4b), color-stop(100%, #6b0e0e));
+  background-image: -webkit-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -o-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: linear-gradient(#e64b4b, #6b0e0e);
+  border-color: #6b0e0e #6b0e0e #430909;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.59);
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Arimo', sans-serif;
+}
+
+/* line 19, ../sass/partials/_buttons.scss */
+.welcome-section button {
+  margin: 30px 0px 20px 0px;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+/* line 27, ../sass/partials/_buttons.scss */
+.active a {
+  color: white !important;
+  background-color: #6c0f0f !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e64b4b", endColorstr="#6b0e0e");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e64b4b), to(#6b0e0e));
+  background-image: -moz-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -ms-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e64b4b), color-stop(100%, #6b0e0e));
+  background-image: -webkit-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: -o-linear-gradient(top, #e64b4b, #6b0e0e);
+  background-image: linear-gradient(#e64b4b, #6b0e0e);
+  border-color: #6b0e0e #6b0e0e #430909;
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.59);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 6, ../sass/styles.scss */
+#owl-demo .item {
+  margin: 3px;
+}
+
+/* line 9, ../sass/styles.scss */
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
