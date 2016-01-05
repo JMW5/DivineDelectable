@@ -6,6 +6,25 @@ header {
 	height: 50px;
 }
 
+.img-wrapper {
+	width: 90%;
+	height: 0;
+	position: relative;
+	border: 2px solid black;
+	padding-bottom: 75.71;
+	img {
+		position: absolute;
+		width: 100%;
+	}
+	
+}
+.crop {
+	height: 195px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
 .flex-container {
 	width: 100%;
 	background-color: hsl(0, 76%, 24%) !important;
@@ -77,6 +96,32 @@ header {
 	padding: 25px;
 }
 
+.services-section {
+	margin: 50px 0px 50px 0px;
+	h2 {
+		font-size: 56px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+	}
+	h3 {
+		font-size: 32px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+		color: white;
+
+		position: absolute;
+		width: 90%;
+		text-align: center;
+		top: 0;
+	}
+	p {
+		margin-top: 3%;
+		font-family: 'Arimo', sans-serif;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+}
+
 
 
 .menu-section {
@@ -113,6 +158,21 @@ header {
 	color: #fff !important;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.59);
 	-webkit-font-smoothing: antialiased;
+}
+
+
+.picnic-section {
+	h2 {
+		font-size: 56px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+	}
+	p {
+		margin-top: 3%;
+		font-family: 'Arimo', sans-serif;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
 }
 
 

@@ -70,6 +70,28 @@ header {
 }
 
 /* line 9, ../sass/partials/_layout.scss */
+.img-wrapper {
+  width: 90%;
+  height: 0;
+  position: relative;
+  border: 2px solid black;
+  padding-bottom: 75.71;
+}
+/* line 15, ../sass/partials/_layout.scss */
+.img-wrapper img {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 21, ../sass/partials/_layout.scss */
+.crop {
+  height: 195px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/* line 28, ../sass/partials/_layout.scss */
 .flex-container {
   width: 100%;
   background-color: #6c0f0f !important;
@@ -90,83 +112,112 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-/* line 28, ../sass/partials/_layout.scss */
+/* line 47, ../sass/partials/_layout.scss */
 .flex-container ul {
   display: flex;
   margin: 0 auto;
   font-family: 'Arimo', sans-serif;
   font-size: 1.5rem;
 }
-/* line 34, ../sass/partials/_layout.scss */
+/* line 53, ../sass/partials/_layout.scss */
 .flex-container li {
   padding: 20px;
   color: white;
 }
-/* line 38, ../sass/partials/_layout.scss */
+/* line 57, ../sass/partials/_layout.scss */
 .flex-container li a {
   color: white;
 }
 
-/* line 45, ../sass/partials/_layout.scss */
+/* line 64, ../sass/partials/_layout.scss */
 .hero-logo h1 {
   text-align: center;
   font-family: 'Jura', sans-serif;
   font-size: 6rem;
 }
-/* line 49, ../sass/partials/_layout.scss */
+/* line 68, ../sass/partials/_layout.scss */
 .hero-logo h1 .hero-logo img {
   margin-top: 5%;
 }
 
-/* line 53, ../sass/partials/_layout.scss */
+/* line 72, ../sass/partials/_layout.scss */
 .hero-logo p {
   font-family: 'Jura', sans-serif;
   font-size: 1.5rem !important;
   margin: 0px !important;
 }
 
-/* line 61, ../sass/partials/_layout.scss */
+/* line 80, ../sass/partials/_layout.scss */
 .welcome-section {
   border: 1px solid grey;
   height: 445px;
   background-color: white;
 }
-/* line 65, ../sass/partials/_layout.scss */
+/* line 84, ../sass/partials/_layout.scss */
 .welcome-section h2 {
   font-size: 72px;
   text-align: left;
   font-family: 'Jura', sans-serif;
 }
-/* line 70, ../sass/partials/_layout.scss */
+/* line 89, ../sass/partials/_layout.scss */
 .welcome-section p {
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
 
-/* line 76, ../sass/partials/_layout.scss */
+/* line 95, ../sass/partials/_layout.scss */
 .inside-welcome-section {
   padding: 25px;
 }
 
-/* line 82, ../sass/partials/_layout.scss */
+/* line 99, ../sass/partials/_layout.scss */
+.services-section {
+  margin: 50px 0px 50px 0px;
+}
+/* line 101, ../sass/partials/_layout.scss */
+.services-section h2 {
+  font-size: 56px;
+  margin-top: 3%;
+  font-family: 'Jura', sans-serif;
+}
+/* line 106, ../sass/partials/_layout.scss */
+.services-section h3 {
+  font-size: 32px;
+  margin-top: 3%;
+  font-family: 'Jura', sans-serif;
+  color: white;
+  position: absolute;
+  width: 90%;
+  text-align: center;
+  top: 0;
+}
+/* line 117, ../sass/partials/_layout.scss */
+.services-section p {
+  margin-top: 3%;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* line 127, ../sass/partials/_layout.scss */
 .menu-section {
   margin: 50px 0px 50px 0px;
 }
-/* line 84, ../sass/partials/_layout.scss */
+/* line 129, ../sass/partials/_layout.scss */
 .menu-section h2 {
   font-size: 56px;
   margin-top: 3%;
   font-family: 'Jura', sans-serif;
 }
-/* line 89, ../sass/partials/_layout.scss */
+/* line 134, ../sass/partials/_layout.scss */
 .menu-section .menu ul li a {
   font-size: 1.5rem;
   font-family: 'Arimo', sans-serif;
   color: black;
 }
 
-/* line 97, ../sass/partials/_layout.scss */
+/* line 142, ../sass/partials/_layout.scss */
 .contact-section {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -188,7 +239,21 @@ header {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 119, ../sass/partials/_layout.scss */
+/* line 165, ../sass/partials/_layout.scss */
+.picnic-section h2 {
+  font-size: 56px;
+  margin-top: 3%;
+  font-family: 'Jura', sans-serif;
+}
+/* line 170, ../sass/partials/_layout.scss */
+.picnic-section p {
+  margin-top: 3%;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* line 179, ../sass/partials/_layout.scss */
 #homepage-breakfast .row, #homepage-appetizers .row, #homepage-buffets .row, #homepage-desserts .row {
   font-size: 1.5rem;
   margin-top: 20px;
@@ -196,51 +261,51 @@ header {
   line-height: 185%;
 }
 
-/* line 126, ../sass/partials/_layout.scss */
+/* line 186, ../sass/partials/_layout.scss */
 #contact1, #contact2, #contact3 {
   display: flex;
   justify-content: center;
   align-items: left;
 }
 
-/* line 132, ../sass/partials/_layout.scss */
+/* line 192, ../sass/partials/_layout.scss */
 #contact1, #contact3 {
   align-items: center !important;
 }
 
-/* line 135, ../sass/partials/_layout.scss */
+/* line 195, ../sass/partials/_layout.scss */
 #contact1 h3 {
   font-size: 3rem;
   font-family: 'Jura', sans-serif;
 }
 
-/* line 139, ../sass/partials/_layout.scss */
+/* line 199, ../sass/partials/_layout.scss */
 #contact2 {
   flex-direction: column;
 }
 
-/* line 142, ../sass/partials/_layout.scss */
+/* line 202, ../sass/partials/_layout.scss */
 #contact2 p, #contact3 p {
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
 }
 
-/* line 146, ../sass/partials/_layout.scss */
+/* line 206, ../sass/partials/_layout.scss */
 #contact3 ul {
   display: inherit;
 }
 
-/* line 149, ../sass/partials/_layout.scss */
+/* line 209, ../sass/partials/_layout.scss */
 #contact3 li {
   margin-left: 10px;
 }
 
-/* line 153, ../sass/partials/_layout.scss */
+/* line 213, ../sass/partials/_layout.scss */
 footer {
   height: 150px;
 }
 
-/* line 157, ../sass/partials/_layout.scss */
+/* line 217, ../sass/partials/_layout.scss */
 .footer-flex-container {
   width: 970px;
   height: 150px;
@@ -249,16 +314,16 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-/* line 164, ../sass/partials/_layout.scss */
+/* line 224, ../sass/partials/_layout.scss */
 .footer-flex-container ul {
   display: flex;
   font-family: 'Arimo', sans-serif;
 }
-/* line 168, ../sass/partials/_layout.scss */
+/* line 228, ../sass/partials/_layout.scss */
 .footer-flex-container li {
   padding-right: 40px;
 }
-/* line 171, ../sass/partials/_layout.scss */
+/* line 231, ../sass/partials/_layout.scss */
 .footer-flex-container h3 {
   font-size: 1.5rem;
   font-family: 'Jura', sans-serif;
@@ -284,14 +349,19 @@ footer {
 }
 
 /* line 19, ../sass/partials/_buttons.scss */
-.welcome-section button {
+.welcome-section button, .services-section button {
   margin: 30px 0px 20px 0px;
   font-size: 1rem;
   padding: 15px 30px;
   border-radius: 10px;
 }
 
-/* line 27, ../sass/partials/_buttons.scss */
+/* line 25, ../sass/partials/_buttons.scss */
+.services-section button {
+  margin: 10px 0px !important;
+}
+
+/* line 30, ../sass/partials/_buttons.scss */
 .active a {
   color: white !important;
   background-color: #6c0f0f !important;
