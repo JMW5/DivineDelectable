@@ -16,7 +16,7 @@
   font-family: 'Arimo', sans-serif;
 }
 
-.welcome-section button, .services-section button {
+.welcome-section button, .services-section button, .picnic-section button {
   margin: 30px 0px 20px 0px;
   font-size: 1rem;
   padding: 15px 30px;
@@ -25,6 +25,9 @@
 .services-section button {
     margin: 10px 0px !important;
   }
+.picnic-section button {
+  padding: 15px 75px !important;
+}
 
 
 .active a {

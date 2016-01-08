@@ -4,6 +4,12 @@ body {
 
 header {
 	height: 50px;
+	p {
+		float: right;
+		font-family: 'Jura', sans-serif;
+		font-size: 2.3rem !important;
+		padding: 15px;
+	}
 }
 
 .img-wrapper {
@@ -61,12 +67,15 @@ header {
 
 
 
-.hero-logo h1 {
+.hero-logo {
+	margin-top: 8%;
+	h1 {
 	text-align: center;
 	font-family: 'Jura', sans-serif;
 	font-size: 6rem;
+	}
 	.hero-logo img {
-		margin-top: 5%;
+		margin-top: 15%;
 	}
 }
 .hero-logo p {
@@ -104,8 +113,8 @@ header {
 		font-family: 'Jura', sans-serif;
 	}
 	h3 {
-		font-size: 32px;
-		margin-top: 3%;
+		font-size: 34px;
+		margin-top: 24%;
 		font-family: 'Jura', sans-serif;
 		color: white;
 
@@ -119,6 +128,25 @@ header {
 		font-family: 'Arimo', sans-serif;
 		font-size: 1.2rem;
 		line-height: 1.5rem;
+	}
+}
+
+.picnic-menu-section {
+	h2 {
+		font-size: 36px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	p {
+		margin-top: 8%;
+		font-family: 'Arimo', sans-serif;
+		font-size: 1.2rem;
+		line-height: 2.3rem;
+	}
+	img {
+		border-radius: 30px;
 	}
 }
 
@@ -161,7 +189,7 @@ header {
 }
 
 
-.picnic-section {
+.picnic-section, .tea-section, .wedding-section {
 	h2 {
 		font-size: 56px;
 		margin-top: 3%;
@@ -171,9 +199,23 @@ header {
 		margin-top: 3%;
 		font-family: 'Arimo', sans-serif;
 		font-size: 1.2rem;
+	}
+}
+.tea-section p {
+	line-height: 3rem;
+}
+.tea-section {
+	h3 {
+		font-family: 'Arimo', sans-serif;
+		font-size: 1.2rem;
+		padding-bottom: 5px;
+	}
+	ul {
+		font-family: 'Arimo', sans-serif;
 		line-height: 1.5rem;
 	}
 }
+
 
 
 #homepage-breakfast .row, #homepage-appetizers .row, #homepage-buffets .row, #homepage-desserts .row {
