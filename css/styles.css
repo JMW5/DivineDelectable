@@ -212,7 +212,7 @@ header p {
 }
 
 /* line 135, ../sass/partials/_layout.scss */
-.picnic-menu-section h2 {
+.picnic-menu-section h2, .wedding-menu h2 {
   font-size: 36px;
   margin-top: 3%;
   font-family: 'Jura', sans-serif;
@@ -220,14 +220,14 @@ header p {
   text-align: center;
 }
 /* line 142, ../sass/partials/_layout.scss */
-.picnic-menu-section p {
+.picnic-menu-section p, .wedding-menu p {
   margin-top: 8%;
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
   line-height: 2.3rem;
 }
 /* line 148, ../sass/partials/_layout.scss */
-.picnic-menu-section img {
+.picnic-menu-section img, .wedding-menu img {
   border-radius: 30px;
 }
 
@@ -271,36 +271,53 @@ header p {
 }
 
 /* line 193, ../sass/partials/_layout.scss */
-.picnic-section h2, .tea-section h2, .wedding-section h2 {
+.picnic-section h2, .tea-section h2, .wedding-section h2, .wedding-menu h2 {
   font-size: 56px;
   margin-top: 3%;
   font-family: 'Jura', sans-serif;
 }
 /* line 198, ../sass/partials/_layout.scss */
-.picnic-section p, .tea-section p, .wedding-section p {
+.picnic-section p, .tea-section p, .wedding-section p, .wedding-menu p {
   margin-top: 3%;
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
 }
+/* line 203, ../sass/partials/_layout.scss */
+.picnic-section img, .tea-section img, .wedding-section img, .wedding-menu img {
+  border-radius: 10px;
+}
 
-/* line 204, ../sass/partials/_layout.scss */
+/* line 207, ../sass/partials/_layout.scss */
 .tea-section p {
   line-height: 3rem;
 }
 
-/* line 208, ../sass/partials/_layout.scss */
+/* line 211, ../sass/partials/_layout.scss */
 .tea-section h3 {
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
   padding-bottom: 5px;
 }
-/* line 213, ../sass/partials/_layout.scss */
+/* line 216, ../sass/partials/_layout.scss */
 .tea-section ul {
   font-family: 'Arimo', sans-serif;
   line-height: 1.5rem;
 }
 
-/* line 221, ../sass/partials/_layout.scss */
+/* line 222, ../sass/partials/_layout.scss */
+.wedding-menu p {
+  line-height: 2rem;
+}
+/* line 225, ../sass/partials/_layout.scss */
+.wedding-menu h3 {
+  font-size: 36px;
+  margin-top: 3%;
+  font-family: 'Jura', sans-serif;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* line 236, ../sass/partials/_layout.scss */
 #homepage-breakfast .row, #homepage-appetizers .row, #homepage-buffets .row, #homepage-desserts .row {
   font-size: 1.5rem;
   margin-top: 20px;
@@ -308,51 +325,51 @@ header p {
   line-height: 185%;
 }
 
-/* line 228, ../sass/partials/_layout.scss */
+/* line 243, ../sass/partials/_layout.scss */
 #contact1, #contact2, #contact3 {
   display: flex;
   justify-content: center;
   align-items: left;
 }
 
-/* line 234, ../sass/partials/_layout.scss */
+/* line 249, ../sass/partials/_layout.scss */
 #contact1, #contact3 {
   align-items: center !important;
 }
 
-/* line 237, ../sass/partials/_layout.scss */
+/* line 252, ../sass/partials/_layout.scss */
 #contact1 h3 {
   font-size: 3rem;
   font-family: 'Jura', sans-serif;
 }
 
-/* line 241, ../sass/partials/_layout.scss */
+/* line 256, ../sass/partials/_layout.scss */
 #contact2 {
   flex-direction: column;
 }
 
-/* line 244, ../sass/partials/_layout.scss */
+/* line 259, ../sass/partials/_layout.scss */
 #contact2 p, #contact3 p {
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
 }
 
-/* line 248, ../sass/partials/_layout.scss */
+/* line 263, ../sass/partials/_layout.scss */
 #contact3 ul {
   display: inherit;
 }
 
-/* line 251, ../sass/partials/_layout.scss */
+/* line 266, ../sass/partials/_layout.scss */
 #contact3 li {
   margin-left: 10px;
 }
 
-/* line 255, ../sass/partials/_layout.scss */
+/* line 270, ../sass/partials/_layout.scss */
 footer {
   height: 150px;
 }
 
-/* line 259, ../sass/partials/_layout.scss */
+/* line 274, ../sass/partials/_layout.scss */
 .footer-flex-container {
   width: 970px;
   height: 150px;
@@ -361,16 +378,16 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-/* line 266, ../sass/partials/_layout.scss */
+/* line 281, ../sass/partials/_layout.scss */
 .footer-flex-container ul {
   display: flex;
   font-family: 'Arimo', sans-serif;
 }
-/* line 270, ../sass/partials/_layout.scss */
+/* line 285, ../sass/partials/_layout.scss */
 .footer-flex-container li {
   padding-right: 40px;
 }
-/* line 273, ../sass/partials/_layout.scss */
+/* line 288, ../sass/partials/_layout.scss */
 .footer-flex-container h3 {
   font-size: 1.5rem;
   font-family: 'Jura', sans-serif;
@@ -396,7 +413,7 @@ footer {
 }
 
 /* line 19, ../sass/partials/_buttons.scss */
-.welcome-section button, .services-section button, .picnic-section button {
+.welcome-section button, .services-section button, .picnic-section button, .wedding-section button {
   margin: 30px 0px 20px 0px;
   font-size: 1rem;
   padding: 15px 30px;
@@ -409,7 +426,7 @@ footer {
 }
 
 /* line 28, ../sass/partials/_buttons.scss */
-.picnic-section button {
+.picnic-section button, .wedding-section button {
   padding: 15px 75px !important;
 }
 

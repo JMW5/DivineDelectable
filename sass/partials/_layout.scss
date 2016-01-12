@@ -131,7 +131,7 @@ header {
 	}
 }
 
-.picnic-menu-section {
+.picnic-menu-section, .wedding-menu {
 	h2 {
 		font-size: 36px;
 		margin-top: 3%;
@@ -189,7 +189,7 @@ header {
 }
 
 
-.picnic-section, .tea-section, .wedding-section {
+.picnic-section, .tea-section, .wedding-section, .wedding-menu {
 	h2 {
 		font-size: 56px;
 		margin-top: 3%;
@@ -199,6 +199,9 @@ header {
 		margin-top: 3%;
 		font-family: 'Arimo', sans-serif;
 		font-size: 1.2rem;
+	}
+	img {
+		border-radius: 10px;
 	}
 }
 .tea-section p {
@@ -213,6 +216,18 @@ header {
 	ul {
 		font-family: 'Arimo', sans-serif;
 		line-height: 1.5rem;
+	}
+}
+.wedding-menu { 
+	p {
+	line-height: 2rem;
+	}
+	h3 {
+		font-size: 36px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+		padding-bottom: 10px;
+		text-align: center;
 	}
 }
 
