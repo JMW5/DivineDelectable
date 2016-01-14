@@ -232,9 +232,8 @@ header {
 }
 
 
-
 #homepage-breakfast .row, #homepage-appetizers .row, #homepage-buffets .row, #homepage-desserts .row {
-	font-size: 1.5rem;
+	font-size: 1.115rem;
 	margin-top: 20px;
 	font-family: 'Arimo', sans-serif;
 	line-height: 185%;
@@ -265,6 +264,25 @@ header {
 }
 #contact3 li {
 	margin-left: 10px;
+}
+
+.contact-page {
+	h2 {
+		font-size: 56px;
+		margin-top: 5%;
+		margin-bottom: 3%;
+		font-family: 'Jura', sans-serif;
+	}
+	h3 {
+		font-size: 26px;
+		margin-top: 3%;
+		font-family: 'Jura', sans-serif;
+	}
+	p {
+		margin-top: 3%;
+		font-family: 'Arimo', sans-serif;
+		font-size: 1.2rem;
+	}
 }
 
 footer {
