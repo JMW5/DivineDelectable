@@ -30,7 +30,9 @@ header {
 	overflow: hidden;
 	border-radius: 15px;
 }
-
+.crop h3 {
+	font-family: 'Arimo', sans-serif !important;
+}
 .flex-container {
 	width: 100%;
 	background-color: hsl(0, 76%, 24%) !important;
@@ -91,9 +93,9 @@ header {
 	height: 445px;
 	background-color: white;
 	h2 {
-		font-size: 72px;
+		font-size: 60px;
 		text-align: left;
-		font-family: 'Jura', sans-serif;	
+		font-family: 'Cherry Cream Soda', cursive;	
 	}
 	p {
 		font-family: 'Arimo', sans-serif;
@@ -108,9 +110,9 @@ header {
 .services-section {
 	margin: 50px 0px 50px 0px;
 	h2 {
-		font-size: 56px;
-		margin-top: 3%;
-		font-family: 'Jura', sans-serif;
+		font-size: 48px;
+		margin-top: 8%;
+		font-family: 'Cherry Cream Soda', cursive;
 	}
 	h3 {
 		font-size: 34px;
@@ -119,7 +121,7 @@ header {
 		color: white;
 
 		position: absolute;
-		width: 90%;
+		width: 92%;
 		text-align: center;
 		top: 0;
 	}
@@ -155,13 +157,13 @@ header {
 .menu-section {
 	margin: 50px 0px 50px 0px;
 	h2 {
-		font-size: 56px;
+		font-size: 48px;
 		margin-top: 3%;
-		font-family: 'Jura', sans-serif;
+		font-family: 'Cherry Cream Soda', cursive;
 	}
 	.menu ul li a {
 		font-size: 1.5rem;
-		font-family: 'Arimo', sans-serif;
+		font-family: 'Cherry Cream Soda', cursive;
 		color: black;
 	}
 }
@@ -191,9 +193,9 @@ header {
 
 .picnic-section, .tea-section, .wedding-section, .wedding-menu {
 	h2 {
-		font-size: 56px;
-		margin-top: 3%;
-		font-family: 'Jura', sans-serif;
+		font-size: 42px;
+		margin-top: 8%;
+		font-family: 'Cherry Cream Soda', cursive;
 	}
 	p {
 		margin-top: 3%;
@@ -241,7 +243,7 @@ header {
 
 .contact-section h3 {
 	font-size: 3rem;
-	font-family: 'Jura', sans-serif;
+	font-family: 'Cherry Cream Soda', cursive;
 	white-space: nowrap;
 	position: absolute;
 	left: 20px;
@@ -278,10 +280,10 @@ header {
 
 .contact-page {
 	h2 {
-		font-size: 56px;
+		font-size: 42px;
 		margin-top: 5%;
 		margin-bottom: 3%;
-		font-family: 'Jura', sans-serif;
+		font-family: 'Cherry Cream Soda', cursive;
 	}
 	h3 {
 		font-size: 26px;
@@ -303,6 +305,7 @@ footer {
 	width: 970px;
 	height: 150px;
 	margin: 0 auto;
+	margin-top: 10px;
 	display: flex;
 	
 	flex-direction: column;
