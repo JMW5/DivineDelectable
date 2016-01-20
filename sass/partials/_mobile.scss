@@ -1,0 +1,46 @@
+//Iphone 6 Size
+@media (max-width: 475px) {
+	header, footer, .container-fluid {
+		display: none;
+	}
+	.hero-logo {
+		margin-top: 35%;
+	}
+	.hero-logo img {
+		width: 125px;
+		height: 125px;
+	}
+	.hero-logo h1 {
+		font-size: 3rem;
+	}
+	.hero-logo p {
+		font-size: 1.1rem !important;
+	}
+	
+
+	.welcome-section {
+		text-align: center;
+		background-color: transparent;
+		border: none;
+	}
+	.welcome-img {
+		padding: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	.crop {
+		width: 100%;
+		height: auto;
+	}
+	#build-picnic, #tea-delectables, #wedding-delectables {
+		text-align: center;
+	}
+	.menu-container {
+		padding: 0px;
+		margin: 0px;
+	}
+	.menu {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+}

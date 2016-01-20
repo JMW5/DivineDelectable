@@ -239,6 +239,18 @@ header {
 	line-height: 185%;
 }
 
+.contact-section h3 {
+	font-size: 3rem;
+	font-family: 'Jura', sans-serif;
+	white-space: nowrap;
+	position: absolute;
+	left: 20px;
+	margin-top: 10px;
+}
+#contact2 p, #contact3 p {
+	font-size: 20px !important;
+}
+
 #contact1, #contact2, #contact3 {
 	display: flex;
 	justify-content: center;
@@ -248,16 +260,14 @@ header {
 #contact1, #contact3 {
 	align-items: center !important;
 }
-#contact1 h3 {
-	font-size: 3rem;
-	font-family: 'Jura', sans-serif;
-}
-#contact2 {
+
+#contact1, #contact2 {
 	flex-direction: column;
 }
-#contact2 p, #contact3 p {
+#contact1, #contact2 li, #contact3 li {
 	font-family: 'Arimo', sans-serif;
 	font-size: 1.2rem;
+	line-height: 2rem;
 }
 #contact3 ul {
 	display: inherit;
@@ -294,7 +304,8 @@ footer {
 	height: 150px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;
+	
+	flex-direction: column;
 	align-items: center;
 	ul {
 		display: flex;

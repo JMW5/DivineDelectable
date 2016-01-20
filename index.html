@@ -95,7 +95,7 @@
          <a href="services.html"><button class="btn-custom">MORE</button></a>
         </div>
        </div>
-       <div class="col-md-7" style="padding-right: 0px;">
+       <div class="col-md-7 welcome-img" style="padding-right: 0px;">
          <img src="images/hero-image.jpg" class="img-responsive">
        </div>
      </div>
@@ -108,7 +108,7 @@
    <div class="container"> 
      <div class="row services-section text-center">
       <h2>Services</h2><br>
-       <div class="col-md-4 text-left">
+       <div class="col-md-4 text-left" id="build-picnic">
         <div class="crop">
          <img src="images/picnic.jpg" class="img-responsive">
          <h3>Build Your Own Picnic</h3>
@@ -116,7 +116,7 @@
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed turpis ut leo fermentum porttitor convallis id enim.</p>
          <a href="services.html#picnic"><button class="btn-custom">MORE</button></a>
        </div>
-       <div class="col-md-4 text-left">
+       <div class="col-md-4 text-left" id="tea-delectables">
         <div class="crop">
          <img src="images/tea-delectables.jpg" class="img-responsive">
          <h3>Tea Delectables</h3>
@@ -124,7 +124,7 @@
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed turpis ut leo fermentum porttitor convallis id enim.</p>
          <a href="services.html#tea"><button class="btn-custom">MORE</button></a>
        </div>
-       <div class="col-md-4 text-left">
+       <div class="col-md-4 text-left" id="wedding-delectables">
         <div class="crop">
          <img src="images/wedding.jpg" class="img-responsive">
          <h3>Wedding Delectables</h3>
@@ -137,7 +137,7 @@
    <!--End of Services Section -->
 
    <!--Menu Section-->
-   <div class="container">
+   <div class="container menu-container">
      <div class="row menu-section text-center">
        <h2>Menu</h2><br>
        <div class="col-md-12 menu">
@@ -440,14 +440,45 @@
    <!--Contact Section-->
    <div class="container-fluid">
      <div class="row contact-section">
+          <h3>Contact Us</h3>
        <div class="col-md-4" id="contact1">
-         <h3>Contact Us</h3>
+          <ul>
+            <li>Divine Delectables Baking & Catering Co.</li>
+            <li>PO. Box 99625</li>
+            <li>Pittsburgh, PA 15233</li>
+            <li>info@divine-delectables.com</li>
+          </ul>
        </div>
        <div class="col-md-4" id="contact2">
-         <p>Divine Delectables Baking & Catering Co.</p>
-         <p>PO. Box 99625</p>
-         <p>Pittsburgh, PA 15233</p>
-         <p>info@divine-delectables.com</p>
+         <div class="row">
+           <div class="col-md-4">
+             <p><u>Site Map</u></p> 
+             <ul>
+               <li>About Us</li>
+               <li>Services</li>
+               <li>Menus</li>
+               <li>Contact Us</li>
+             </ul>
+           </div>
+           <div class="col-md-4">
+             <ul>
+               <li>Centerpieces</li>
+               <li>Picnics</li>
+               <li>Coporate</li>
+               <li>Private</li>
+               <li>Brunch</li>
+             </ul>
+           </div>
+           <div class="col-md-4">
+             <ul>
+               <li>Breakfast</li>
+               <li>Luncheons</li>
+               <li>Dinner</li>
+               <li>Table Settings</li>
+               <li>Linen Rentals</li>
+             </ul>
+           </div>
+         </div>
        </div>
        <div class="col-md-4" id="contact3">
          <p>Follow Us:</p>
@@ -464,13 +495,8 @@
    <!--Footer Section-->
    <footer>
      <div class="footer-flex-container">
-       <h3><img src="images/divine-logo.png" width="100px" height="100px"> Divine Delectables &copy; 2015</h3>
-       <ul>
-         <li>ABOUT</li>
-         <li>SERVICES</li>
-         <li>MENUS</li>
-         <li>CONTACT</li>
-       </ul>
+      <img src="images/divine-logo.png" class="img-responsive" width="120px" height="120px">
+      <p>Copyright &copy; 2015 Divine Delectables</p>
      </div>
    </footer>
    <!--End of Footer Section-->
